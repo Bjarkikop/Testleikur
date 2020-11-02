@@ -6,7 +6,7 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
-    // Update is called once per frame
+    //ef ýtt er á músina skýtur leikmaður
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -14,6 +14,7 @@ public class Weapon : MonoBehaviour
             Shoot();
         }
     }
+    //fall sem lætur leikmann skjóta
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);

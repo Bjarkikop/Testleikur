@@ -50,6 +50,24 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: -10, y: -20, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 119
+      m_TileSpriteIndex: 114
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -8, y: -20, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 120
+      m_TileSpriteIndex: 115
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: -18, z: 0}
     second:
       serializedVersion: 2
@@ -1352,6 +1370,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 933e1a8b38023914aa0c45a42509da65, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ee03f7bcc5beebd41bb2721e327f8ab8, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 78f9b5ee413185548b36cacc049a211c, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 629eac572dcdc564fa2c7a74482d1efb, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 21300012, guid: bb35af95735851440927571ef230221b, type: 3}
@@ -1581,8 +1603,12 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: b95ec376682d48b43a186e2e0d8c8906, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 70dea7fddd83c0d4f9beb5fcaea4ee23, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 6a9b202e9a1f2064b8ddb485c19be1fd, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 8fa71125fb47e764db3eaad0cd306d09, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 119
+  - m_RefCount: 121
     m_Data:
       e00: 1
       e01: 0
@@ -1601,7 +1627,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 119
+  - m_RefCount: 121
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1714,7 +1740,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3199315450152387472}
   m_Enabled: 1
-  m_CellSize: {x: 1.0333333, y: 0.9, z: 0}
+  m_CellSize: {x: 3.0333333, y: 1.6333333, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
