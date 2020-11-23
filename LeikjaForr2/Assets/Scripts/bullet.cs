@@ -13,13 +13,19 @@ public class bullet : MonoBehaviour
     {
         rb.velocity = transform.right * speed; 
     }
+
     //sér hvort bullet hittir óvin
     void OnTriggerEnter2D(Collider2D collision)
     {
         EnemyHealth enemy = collision.GetComponent<EnemyHealth>();
-        if(enemy != null)
+        BossHealth boss = collision.GetComponent<BossHealth>();
+        if (enemy != null)
         {
             enemy.TakeDamage(damage);
+        }
+        if(boss != null)
+        {
+            boss.TakeDamage(damage);
         }
         
     }

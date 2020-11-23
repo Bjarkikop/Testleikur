@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 2955efcc204ebd94ea6935de44e00705
   - enabled: 0
-    path: Assets/Scenes/level2.unity
+    path: Assets/Aekashics Librarium - Megapack III/Demo/Demo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: 
@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/level03.unity
     guid: 2b759a76bb2e1824996dd75fd1d60b35
   - enabled: 1
-    path: Assets/Scenes/Boss.unity
-    guid: 5e94f2b37d1e76449af6e8d1d042918e
+    path: Assets/Scenes/level04.unity
+    guid: c228fd374c2cfbd4e956a19aaf258424
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 25a95bcac84dbc94597795de81c31b34
   m_configObjects: {}
